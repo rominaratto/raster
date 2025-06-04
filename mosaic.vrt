@@ -1,0 +1,112 @@
+<VRTDataset rasterXSize="19200" rasterYSize="24000">
+  <SRS dataAxisToSRSAxisMapping="2,1">GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -1.1119505196667001e+07,  2.3165635826387825e+02,  0.0000000000000000e+00,  2.2239010393329998e+06,  0.0000000000000000e+00, -2.3165635826389425e+02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>253</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h08v08.061.2025133160420.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="0" yOff="4800" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h08v09.061.2025133154543.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="0" yOff="9600" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h09v08.061.2025133155114.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="4800" yOff="4800" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h09v09.061.2025133154709.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="4800" yOff="9600" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h10v07.061.2025133155113.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="9600" yOff="0" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h10v08.061.2025133160349.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="9600" yOff="4800" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h10v09.061.2025133155323.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="9600" yOff="9600" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h10v10.061.2025133155101.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="9600" yOff="14400" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h10v11.061.2025133154656.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="9600" yOff="19200" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h11v07.061.2025133154933.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="14400" yOff="0" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h11v08.061.2025133155450.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="14400" yOff="4800" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h11v10.061.2025133155233.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="14400" yOff="14400" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">modis_data/tifs/MOD44B.A2024065.h11v11.061.2025133155422.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4800" RasterYSize="4800" DataType="Byte" BlockXSize="4800" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="4800" ySize="4800" />
+      <DstRect xOff="14400" yOff="19200" xSize="4800" ySize="4800" />
+      <NODATA>253</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
